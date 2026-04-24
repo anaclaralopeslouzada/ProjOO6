@@ -6,6 +6,6 @@ namespace Amazonia2
     {
         // Este método funciona como um CALLBACK. 
         // É uma função que a universidade "deixa" com a PCD para ser chamada de volta quando algo acontecer.
-        void Atualizar(string nomePCD, double temp, double umidade);
+        void Atualizar(string nomePCD, double temp, double ph, double umidade);
     }
 }
