@@ -13,7 +13,7 @@ namespace Amazonia2
         public void Atualizar(string nomePCD, double temp, double ph, double umid)
         {
             Console.WriteLine($"[NOTIFICAÇÃO PARA {_nome}]:");
-            Console.WriteLine($"Dados recebidos de {nomePCD} -> Temp: {temp}°C | PH: {ph} | Umidade: {umid}%");
+            Console.WriteLine($"Dados recebidos de {nomePCD} -> Temp: {temp} °C | PH: {ph} | Umidade: {umid} %");
         }
     }
 }
