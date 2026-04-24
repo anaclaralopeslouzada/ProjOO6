@@ -31,7 +31,7 @@ O método `Atualizar()` na nossa interface funciona como um **Callback**. A univ
 - **Program.cs**: Onde a mágica acontece e a Inversão de Controle é configurada.
 
 ## Como rodar o código:
-O repositório contém o arquivo de projeto (`.csproj`). Para executar e ver a mágica dos preços somando no terminal, basta digitar:
+O repositório contém o arquivo de projeto (`.csproj`). Para executar, basta digitar no terminal:
 
 ```bash
 dotnet run
